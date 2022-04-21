@@ -19,37 +19,35 @@
 </head>
 
 <body>
-  <header>
-    <section class="banner">
+  <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+  <header id="content">
+    <section class="banner-fluid">
       <!--Banner image-->
       <div id="intro" class="img-fluid bg-image shadow-2-strong">
-      <!--Nav bar-->
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="images/Logo.png" alt="" width=25%>
-            </a>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+        <!--Nav bar-->
+        <nav class="navbar navbar-expand-md navbar-light ">
+          <div class="container-fluid">
+              <a class="navbar-brand active" aria-current="page" href="index.html">
+                  <img src="images/Logo.png" alt="Logo" width="100" height="100"
+                      class="d-inline-block align-text-top">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav navbar-nav ms-auto mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav navbar-nav ms-auto mb-2 mb-lg-0">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
       </div>
     </section>
@@ -67,18 +65,18 @@
     <div class="d-flex" style="height: 50px;">
       <div class="vr"></div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col">
+        <div class="col-sm-3">
           <img src="images/T_Final-1.JPG" class="img-fluid" alt="Portraits">
         </div>
-        <div class="col">
+        <div class="col-sm-3">
           <img src="images/port-food-2.JPG" class="img-fluid" alt="Food">
         </div>
-        <div class="col">
+        <div class="col-sm-3">
           <img src="images/DSCF7131.jpg" class="img-fluid" alt="Lookbook">
         </div>
-        <div class="col">
+        <div class="col-sm-3">
           <img src="images/DSCF4011.jpg" class="img-fluid" alt="Shops">
         </div>
       </div>
